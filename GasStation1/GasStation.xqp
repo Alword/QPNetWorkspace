@@ -20,7 +20,7 @@
     <place x="225" y="875" n="18" value="2" name="Car1Storage"/>
     <place x="575" y="675" n="19" value="0" name="TankerOnRoad"/>
     <place x="625" y="875" n="20" value="0" name="Queue"/>
-    <place x="425" y="950" n="21" value="1" name="FillingGun"/>
+    <place x="425" y="950" n="21" value="2" name="FillingGun"/>
     <place x="725" y="950" n="22" value="0" name="PaymentInProgress"/>
     <place x="625" y="800" n="23" value="0" name="95Sold"/>
     <place x="450" y="725" n="24" value="0" name="TankFuel"/>
