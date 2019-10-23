@@ -6,13 +6,13 @@
     <place x="475" y="375" n="4" value="0" name="FillingGunInCar"/>
     <place x="175" y="300" n="5" value="2" name="Car1Storage"/>
     <place x="525" y="100" n="6" value="0" name="TankerOnRoad"/>
-    <place x="350" y="225" n="7" value="300" name="95"/>
+    <place x="350" y="225" n="7" value="370" name="95"/>
     <place x="575" y="300" n="8" value="0" name="Queue"/>
     <place x="25" y="300" n="9" value="1" name="Car1"/>
     <place x="375" y="375" n="10" value="1" name="FillingGun"/>
     <place x="675" y="375" n="11" value="0" name="PaymentInProgress"/>
     <place x="400" y="25" n="12" value="0" name="TankFillFuel"/>
-    <place x="575" y="225" n="13" value="0" name="95Sold"/>
+    <place x="575" y="225" n="13" value="0" name="CardsFilled95"/>
     <place x="575" y="425" n="14" value="0" name="CarOwner"/>
     <place x="400" y="150" n="15" value="0" name="TankFuel"/>
     <place x="325" y="300" n="16" value="0" name="Car1TOGas"/>
@@ -49,7 +49,7 @@
         <distr_options m="5" sigma="2"/>
     </transition>
     <arc-tp place="15" x="600" y="150" transition="0" distr="0" block="0" block_type="0">
-        <distr_options value="150"/>
+        <distr_options value="300"/>
     </arc-tp>
     <arc-tp place="6" x="775" y="100" transition="0" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
@@ -57,13 +57,13 @@
     <arc-tp place="2" x="1050" y="625" transition="0" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="13" x="625" y="225" transition="0" distr="0" block="0" block_type="0">
-        <distr_options value="150"/>
-    </arc-pt>
     <arc-pt place="0" x="1050" y="725" transition="0" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
     <arc-pt place="1" x="1050" y="825" transition="0" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-pt>
+    <arc-pt place="7" x="575" y="175" transition="0" distr="0" block="70" block_type="2">
         <distr_options value="1"/>
     </arc-pt>
     <transition x="775" y="750" distr="2" priority="1" n="1" name="Refill92">
@@ -169,7 +169,7 @@
         <distr_options value="1"/>
     </arc-tp>
     <arc-pt place="12" x="700" y="25" transition="8" distr="0" block="0" block_type="0">
-        <distr_options value="150"/>
+        <distr_options value="300"/>
     </arc-pt>
     <arc-pt place="6" x="525" y="50" transition="8" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
@@ -186,20 +186,20 @@
     <arc-pt place="9" x="75" y="300" transition="9" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="250" y="300" distr="0" priority="0" n="10" name="Frequency (1/4)">
+    <transition x="250" y="300" distr="0" priority="0" n="10" name="Frequency (1/5)">
         <distr_options value="0"/>
     </transition>
     <arc-tp place="16" x="275" y="300" transition="10" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
     <arc-pt place="5" x="225" y="300" transition="10" distr="0" block="0" block_type="0">
-        <distr_options value="4"/>
+        <distr_options value="5"/>
     </arc-pt>
     <transition x="425" y="300" distr="2" priority="0" n="11" name="RefuelCar1">
         <distr_options m="1" sigma="0"/>
     </transition>
-    <arc-tp place="13" x="450" y="225" transition="11" distr="0" block="0" block_type="0">
-        <distr_options value="10"/>
+    <arc-tp place="13" x="475" y="275" transition="11" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
     </arc-tp>
     <arc-tp place="8" x="500" y="300" transition="11" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
@@ -210,11 +210,14 @@
     <arc-pt place="10" x="375" y="325" transition="11" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="7" x="400" y="225" transition="11" distr="0" block="0" block_type="0">
-        <distr_options value="10"/>
+    <arc-pt place="7" x="400" y="225" transition="11" distr="2" block="0" block_type="0">
+        <distr_options m="30" sigma="20"/>
     </arc-pt>
     <arc-pt place="16" x="375" y="300" transition="11" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
+    </arc-pt>
+    <arc-pt place="6" x="450" y="225" transition="11" distr="0" block="1" block_type="2">
+        <distr_options value="0"/>
     </arc-pt>
     <transition x="425" y="425" distr="0" priority="0" n="12" name="DropGun">
         <distr_options value="0"/>
