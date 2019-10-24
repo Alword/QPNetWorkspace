@@ -8,498 +8,459 @@
     <place x="525" y="100" n="6" value="0" name="TankerOnRoad"/>
     <place x="350" y="225" n="7" value="500" name="95"/>
     <place x="575" y="300" n="8" value="0" name="Queue"/>
-    <place x="100" y="300" n="9" value="1" name="Car1"/>
-    <place x="375" y="375" n="10" value="2" name="FillingGun"/>
-    <place x="675" y="375" n="11" value="0" name="PaymentInProgress"/>
-    <place x="400" y="25" n="12" value="0" name="TankFillFuel"/>
-    <place x="575" y="225" n="13" value="0" name="CardsFilled95"/>
-    <place x="575" y="425" n="14" value="0" name="CarOwner"/>
-    <place x="400" y="150" n="15" value="0" name="TankFuel"/>
-    <place x="125" y="825" n="16" value="1" name="Car1"/>
-    <place x="525" y="625" n="17" value="0" name="TankerOnRoad"/>
-    <place x="575" y="825" n="18" value="0" name="Queue"/>
-    <place x="375" y="900" n="19" value="4" name="FillingGun"/>
-    <place x="675" y="900" n="20" value="0" name="PaymentInProgress"/>
-    <place x="575" y="750" n="21" value="0" name="CarsFilled92"/>
-    <place x="400" y="675" n="22" value="0" name="TankFuel"/>
-    <place x="325" y="825" n="23" value="0" name="Car1TOGas"/>
-    <place x="475" y="900" n="24" value="0" name="FillingGunInCar"/>
-    <place x="350" y="750" n="25" value="500" name="95"/>
-    <place x="400" y="550" n="26" value="0" name="TankFillFuel"/>
-    <place x="575" y="950" n="27" value="0" name="CarOwner"/>
-    <place x="25" y="1325" n="28" value="1" name="Car1"/>
-    <place x="175" y="1325" n="29" value="2" name="Car1Storage"/>
-    <place x="525" y="1125" n="30" value="0" name="TankerOnRoad"/>
-    <place x="575" y="1325" n="31" value="0" name="Queue"/>
-    <place x="375" y="1400" n="32" value="1" name="FillingGun"/>
-    <place x="675" y="1400" n="33" value="0" name="PaymentInProgress"/>
-    <place x="575" y="1250" n="34" value="0" name="ElicticCarFilled"/>
-    <place x="400" y="1175" n="35" value="0" name="TankFuel"/>
-    <place x="325" y="1325" n="36" value="0" name="Car1TOGas"/>
-    <place x="475" y="1400" n="37" value="0" name="FillingGunInCar"/>
-    <place x="350" y="1250" n="38" value="500" name="95"/>
-    <place x="400" y="1050" n="39" value="0" name="TankFillFuel"/>
-    <place x="575" y="1450" n="40" value="0" name="CarOwner"/>
-    <place x="1475" y="1200" n="41" value="20" name="p5"/>
-    <place x="1650" y="1200" n="42" value="0" name="p6"/>
-    <place x="1650" y="1325" n="43" value="0" name="p8"/>
-    <place x="1800" y="1200" n="44" value="0" name="p9"/>
-    <place x="1300" y="850" n="45" value="0" name="p1"/>
-    <place x="175" y="1450" n="46" value="0" name="p2"/>
-    <place x="225" y="925" n="47" value="0" name="p2"/>
-    <place x="150" y="400" n="48" value="0" name="p2"/>
-    <place x="1125" y="1175" n="49" value="0" name="p2"/>
-    <transition x="775" y="225" distr="2" priority="1" n="0" name="RefillДТ">
+    <place x="375" y="375" n="9" value="2" name="FillingGun"/>
+    <place x="675" y="375" n="10" value="0" name="PaymentInProgress"/>
+    <place x="400" y="25" n="11" value="0" name="TankFillFuel"/>
+    <place x="575" y="225" n="12" value="0" name="CardsFilled95"/>
+    <place x="575" y="425" n="13" value="0" name="CarOwner"/>
+    <place x="400" y="150" n="14" value="0" name="TankFuel"/>
+    <place x="525" y="625" n="15" value="0" name="TankerOnRoad"/>
+    <place x="575" y="825" n="16" value="0" name="Queue"/>
+    <place x="375" y="900" n="17" value="4" name="FillingGun"/>
+    <place x="675" y="900" n="18" value="0" name="PaymentInProgress"/>
+    <place x="575" y="750" n="19" value="0" name="CarsFilled92"/>
+    <place x="400" y="675" n="20" value="0" name="TankFuel"/>
+    <place x="325" y="825" n="21" value="0" name="Car1TOGas"/>
+    <place x="475" y="900" n="22" value="0" name="FillingGunInCar"/>
+    <place x="350" y="750" n="23" value="500" name="95"/>
+    <place x="400" y="550" n="24" value="0" name="TankFillFuel"/>
+    <place x="575" y="950" n="25" value="0" name="CarOwner"/>
+    <place x="575" y="1175" n="26" value="0" name="Queue"/>
+    <place x="375" y="1250" n="27" value="3" name="FillingGun"/>
+    <place x="675" y="1250" n="28" value="0" name="PaymentInProgress"/>
+    <place x="575" y="1100" n="29" value="0" name="ElicticCarFilled"/>
+    <place x="325" y="1175" n="30" value="0" name="Car1TOGas"/>
+    <place x="475" y="1250" n="31" value="0" name="FillingGunInCar"/>
+    <place x="350" y="1100" n="32" value="500" name="95"/>
+    <place x="575" y="1300" n="33" value="0" name="CarOwner"/>
+    <place x="1475" y="1200" n="34" value="20" name="p5"/>
+    <place x="1650" y="1200" n="35" value="0" name="p6"/>
+    <place x="1650" y="1325" n="36" value="0" name="p8"/>
+    <place x="1800" y="1200" n="37" value="0" name="p9"/>
+    <place x="1300" y="850" n="38" value="0" name="p1"/>
+    <place x="175" y="1300" n="39" value="0" name="p2"/>
+    <place x="150" y="400" n="40" value="0" name="CarLost"/>
+    <place x="200" y="1100" n="41" value="1" name="p3"/>
+    <place x="300" y="1400" n="42" value="0" name="p4"/>
+    <place x="425" y="1400" n="43" value="0" name="p7"/>
+    <transition x="375" y="1400" distr="0" priority="2" n="0" name="RepairGun">
+        <distr_options value="1"/>
+    </transition>
+    <arc-tp place="43" x="400" y="1400" transition="0" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-tp>
+    <arc-pt place="42" x="350" y="1400" transition="0" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-pt>
+    <arc-pt place="27" x="350" y="1375" transition="0" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-pt>
+    <transition x="775" y="225" distr="2" priority="1" n="1" name="RefillДТ">
         <distr_options m="5" sigma="2"/>
     </transition>
-    <arc-tp place="15" x="600" y="150" transition="0" distr="0" block="0" block_type="0">
+    <arc-tp place="14" x="600" y="150" transition="1" distr="0" block="0" block_type="0">
         <distr_options value="600"/>
     </arc-tp>
-    <arc-tp place="6" x="775" y="100" transition="0" distr="0" block="0" block_type="0">
+    <arc-tp place="6" x="775" y="100" transition="1" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="2" x="1050" y="625" transition="0" distr="0" block="0" block_type="0">
+    <arc-tp place="2" x="1050" y="625" transition="1" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="0" x="1050" y="725" transition="0" distr="0" block="0" block_type="0">
+    <arc-pt place="0" x="1050" y="725" transition="1" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="1" x="1050" y="825" transition="0" distr="0" block="0" block_type="0">
+    <arc-pt place="1" x="1050" y="825" transition="1" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="7" x="575" y="175" transition="0" distr="0" block="110" block_type="2">
+    <arc-pt place="7" x="575" y="175" transition="1" distr="0" block="110" block_type="2">
         <distr_options value="0"/>
     </arc-pt>
-    <transition x="775" y="750" distr="2" priority="1" n="1" name="Refill92">
+    <transition x="775" y="750" distr="2" priority="1" n="2" name="Refill92">
         <distr_options m="5" sigma="2"/>
     </transition>
-    <arc-tp place="22" x="600" y="675" transition="1" distr="0" block="0" block_type="0">
+    <arc-tp place="20" x="600" y="675" transition="2" distr="0" block="0" block_type="0">
         <distr_options value="300"/>
     </arc-tp>
-    <arc-tp place="17" x="775" y="625" transition="1" distr="0" block="0" block_type="0">
+    <arc-tp place="15" x="775" y="625" transition="2" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="2" x="1050" y="650" transition="1" distr="0" block="0" block_type="0">
+    <arc-tp place="2" x="1050" y="650" transition="2" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="0" x="1050" y="750" transition="1" distr="0" block="0" block_type="0">
+    <arc-pt place="0" x="1050" y="750" transition="2" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="1" x="1050" y="850" transition="1" distr="0" block="0" block_type="0">
+    <arc-pt place="1" x="1050" y="850" transition="2" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="25" x="525" y="700" transition="1" distr="0" block="100" block_type="2">
+    <arc-pt place="23" x="525" y="700" transition="2" distr="0" block="100" block_type="2">
         <distr_options value="0"/>
     </arc-pt>
-    <transition x="775" y="1250" distr="2" priority="1" n="2" name="Refill95">
-        <distr_options m="5" sigma="2"/>
-    </transition>
-    <arc-tp place="35" x="600" y="1175" transition="2" distr="0" block="0" block_type="0">
-        <distr_options value="300"/>
-    </arc-tp>
-    <arc-tp place="30" x="775" y="1125" transition="2" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-tp place="2" x="1050" y="675" transition="2" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-pt place="0" x="1050" y="775" transition="2" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <arc-pt place="1" x="1050" y="875" transition="2" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <arc-pt place="38" x="575" y="1200" transition="2" distr="0" block="100" block_type="2">
-        <distr_options value="0"/>
-    </arc-pt>
-    <transition x="1200" y="650" distr="0" priority="0" n="3" name="CashierGoBack">
+    <transition x="425" y="1175" distr="0" priority="1" n="3" name="RefuelCar1">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="0" x="1200" y="750" transition="3" distr="0" block="0" block_type="0">
+    <arc-tp place="31" x="475" y="1200" transition="3" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="2" x="1150" y="650" transition="3" distr="0" block="0" block_type="0">
+    <arc-tp place="29" x="475" y="1150" transition="3" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-tp>
+    <arc-tp place="26" x="500" y="1175" transition="3" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-tp>
+    <arc-pt place="27" x="375" y="1200" transition="3" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="1200" y="950" distr="0" priority="0" n="4" name="ParkTanker">
+    <arc-pt place="30" x="375" y="1175" transition="3" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-pt>
+    <arc-pt place="32" x="400" y="1100" transition="3" distr="2" block="0" block_type="0">
+        <distr_options m="30" sigma="10"/>
+    </arc-pt>
+    <transition x="225" y="1400" distr="3" priority="0" n="4" name="BrokenGun">
+        <distr_options m="500"/>
+    </transition>
+    <arc-tp place="42" x="250" y="1400" transition="4" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-tp>
+    <transition x="1200" y="650" distr="0" priority="0" n="5" name="CashierGoBack">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="1" x="1150" y="925" transition="4" distr="0" block="0" block_type="0">
+    <arc-tp place="0" x="1200" y="750" transition="5" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="3" x="1150" y="950" transition="4" distr="0" block="0" block_type="0">
+    <arc-pt place="2" x="1150" y="650" transition="5" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="775" y="300" distr="0" priority="0" n="5" name="Pay">
+    <transition x="1200" y="950" distr="0" priority="0" n="6" name="ParkTanker">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="11" x="675" y="325" transition="5" distr="0" block="0" block_type="0">
+    <arc-tp place="1" x="1150" y="925" transition="6" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="8" x="725" y="300" transition="5" distr="0" block="0" block_type="0">
+    <arc-pt place="3" x="1150" y="950" transition="6" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="0" x="1025" y="725" transition="5" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <transition x="775" y="425" distr="0" priority="0" n="6" name="Paid">
+    <transition x="775" y="300" distr="0" priority="0" n="7" name="Pay">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="14" x="725" y="425" transition="6" distr="0" block="0" block_type="0">
+    <arc-tp place="10" x="675" y="325" transition="7" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="2" x="1025" y="625" transition="6" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-pt place="11" x="775" y="375" transition="6" distr="0" block="0" block_type="0">
+    <arc-pt place="8" x="725" y="300" transition="7" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="300" y="150" distr="0" priority="0" n="7" name="TankFiller">
+    <arc-pt place="0" x="1025" y="725" transition="7" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-pt>
+    <transition x="775" y="425" distr="0" priority="0" n="8" name="Paid">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="7" x="300" y="225" transition="7" distr="0" block="0" block_type="0">
+    <arc-tp place="13" x="725" y="425" transition="8" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-tp>
+    <arc-tp place="2" x="1025" y="625" transition="8" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-tp>
+    <arc-pt place="10" x="775" y="375" transition="8" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-pt>
+    <transition x="300" y="150" distr="0" priority="0" n="9" name="TankFiller">
+        <distr_options value="0"/>
+    </transition>
+    <arc-tp place="7" x="300" y="225" transition="9" distr="0" block="0" block_type="0">
         <distr_options value="60"/>
     </arc-tp>
-    <arc-tp place="12" x="300" y="25" transition="7" distr="0" block="0" block_type="0">
+    <arc-tp place="11" x="300" y="25" transition="9" distr="0" block="0" block_type="0">
         <distr_options value="60"/>
     </arc-tp>
-    <arc-pt place="15" x="350" y="150" transition="7" distr="0" block="0" block_type="0">
+    <arc-pt place="14" x="350" y="150" transition="9" distr="0" block="0" block_type="0">
         <distr_options value="60"/>
     </arc-pt>
-    <transition x="775" y="25" distr="0" priority="0" n="8" name="TankerGoBase">
+    <transition x="775" y="25" distr="0" priority="0" n="10" name="TankerGoBase">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="3" x="1050" y="925" transition="8" distr="0" block="0" block_type="0">
+    <arc-tp place="3" x="1050" y="925" transition="10" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="12" x="700" y="25" transition="8" distr="0" block="0" block_type="0">
+    <arc-pt place="11" x="700" y="25" transition="10" distr="0" block="0" block_type="0">
         <distr_options value="600"/>
     </arc-pt>
-    <arc-pt place="6" x="525" y="50" transition="8" distr="0" block="0" block_type="0">
+    <arc-pt place="6" x="525" y="50" transition="10" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="175" y="300" distr="2" priority="0" n="9" name="SpawnCar1">
+    <transition x="175" y="300" distr="2" priority="0" n="11" name="SpawnCar1">
         <distr_options m="5" sigma="0"/>
     </transition>
-    <arc-tp place="5" x="200" y="300" transition="9" distr="0" block="0" block_type="0">
+    <arc-tp place="5" x="200" y="300" transition="11" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="9" x="150" y="250" transition="9" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-pt place="9" x="150" y="300" transition="9" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <transition x="425" y="300" distr="2" priority="0" n="10" name="RefuelCar1">
+    <transition x="425" y="300" distr="2" priority="0" n="12" name="RefuelCar1">
         <distr_options m="1" sigma="0"/>
     </transition>
-    <arc-tp place="13" x="475" y="275" transition="10" distr="0" block="0" block_type="0">
+    <arc-tp place="12" x="475" y="275" transition="12" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="8" x="500" y="300" transition="10" distr="0" block="0" block_type="0">
+    <arc-tp place="8" x="500" y="300" transition="12" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="4" x="475" y="325" transition="10" distr="0" block="0" block_type="0">
+    <arc-tp place="4" x="475" y="325" transition="12" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="10" x="375" y="325" transition="10" distr="0" block="0" block_type="0">
+    <arc-pt place="9" x="375" y="325" transition="12" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="7" x="400" y="225" transition="10" distr="2" block="0" block_type="0">
+    <arc-pt place="7" x="400" y="225" transition="12" distr="2" block="0" block_type="0">
         <distr_options m="30" sigma="10"/>
     </arc-pt>
-    <arc-pt place="6" x="450" y="225" transition="10" distr="0" block="1" block_type="2">
+    <arc-pt place="6" x="450" y="225" transition="12" distr="0" block="1" block_type="2">
         <distr_options value="0"/>
     </arc-pt>
-    <arc-pt place="5" x="325" y="300" transition="10" distr="0" block="0" block_type="0">
+    <arc-pt place="5" x="325" y="300" transition="12" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="425" y="425" distr="0" priority="0" n="11" name="DropGun">
+    <transition x="425" y="425" distr="0" priority="0" n="13" name="DropGun">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="10" x="375" y="425" transition="11" distr="0" block="0" block_type="0">
+    <arc-tp place="9" x="375" y="425" transition="13" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="14" x="525" y="425" transition="11" distr="0" block="0" block_type="0">
+    <arc-pt place="13" x="525" y="425" transition="13" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="4" x="425" y="375" transition="11" distr="0" block="0" block_type="0">
+    <arc-pt place="4" x="425" y="375" transition="13" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="425" y="825" distr="2" priority="0" n="12" name="RefuelCar1">
+    <transition x="425" y="825" distr="2" priority="0" n="14" name="RefuelCar1">
         <distr_options m="1" sigma="0"/>
     </transition>
-    <arc-tp place="24" x="475" y="850" transition="12" distr="0" block="0" block_type="0">
+    <arc-tp place="22" x="475" y="850" transition="14" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="21" x="475" y="800" transition="12" distr="0" block="0" block_type="0">
+    <arc-tp place="19" x="475" y="800" transition="14" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="18" x="500" y="825" transition="12" distr="0" block="0" block_type="0">
+    <arc-tp place="16" x="500" y="825" transition="14" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="19" x="375" y="850" transition="12" distr="0" block="0" block_type="0">
+    <arc-pt place="17" x="375" y="850" transition="14" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="23" x="375" y="825" transition="12" distr="0" block="0" block_type="0">
+    <arc-pt place="21" x="375" y="825" transition="14" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="25" x="400" y="750" transition="12" distr="2" block="0" block_type="0">
+    <arc-pt place="23" x="400" y="750" transition="14" distr="2" block="0" block_type="0">
         <distr_options m="30" sigma="10"/>
     </arc-pt>
-    <arc-pt place="17" x="450" y="700" transition="12" distr="0" block="1" block_type="2">
+    <arc-pt place="15" x="450" y="700" transition="14" distr="0" block="1" block_type="2">
         <distr_options value="0"/>
     </arc-pt>
-    <transition x="200" y="825" distr="3" priority="0" n="13" name="SpawnCar1">
+    <transition x="200" y="825" distr="3" priority="0" n="15" name="SpawnCar1">
         <distr_options m="5.5"/>
     </transition>
-    <arc-tp place="16" x="175" y="775" transition="13" distr="0" block="0" block_type="0">
+    <arc-tp place="21" x="250" y="825" transition="15" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="23" x="250" y="825" transition="13" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-pt place="16" x="175" y="825" transition="13" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <transition x="425" y="950" distr="2" priority="0" n="14" name="DropGun">
+    <transition x="425" y="950" distr="2" priority="0" n="16" name="DropGun">
         <distr_options m="1" sigma="1"/>
     </transition>
-    <arc-tp place="19" x="375" y="950" transition="14" distr="0" block="0" block_type="0">
+    <arc-tp place="17" x="375" y="950" transition="16" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="24" x="425" y="900" transition="14" distr="0" block="0" block_type="0">
+    <arc-pt place="22" x="425" y="900" transition="16" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="27" x="525" y="950" transition="14" distr="0" block="0" block_type="0">
+    <arc-pt place="25" x="525" y="950" transition="16" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="775" y="950" distr="0" priority="0" n="15" name="Paid">
+    <transition x="775" y="950" distr="0" priority="0" n="17" name="Paid">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="27" x="725" y="950" transition="15" distr="0" block="0" block_type="0">
+    <arc-tp place="25" x="725" y="950" transition="17" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="2" x="1025" y="650" transition="15" distr="0" block="0" block_type="0">
+    <arc-tp place="2" x="1025" y="650" transition="17" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="20" x="775" y="900" transition="15" distr="0" block="0" block_type="0">
+    <arc-pt place="18" x="775" y="900" transition="17" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="775" y="825" distr="2" priority="0" n="16" name="Pay">
+    <transition x="775" y="825" distr="2" priority="0" n="18" name="Pay">
         <distr_options m="2" sigma="2"/>
     </transition>
-    <arc-tp place="20" x="675" y="850" transition="16" distr="0" block="0" block_type="0">
+    <arc-tp place="18" x="675" y="850" transition="18" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="18" x="725" y="825" transition="16" distr="0" block="0" block_type="0">
+    <arc-pt place="16" x="725" y="825" transition="18" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="0" x="1025" y="750" transition="16" distr="0" block="0" block_type="0">
+    <arc-pt place="0" x="1025" y="750" transition="18" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="775" y="550" distr="0" priority="0" n="17" name="TankerGoBase">
+    <transition x="775" y="550" distr="0" priority="0" n="19" name="TankerGoBase">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="3" x="1050" y="950" transition="17" distr="0" block="0" block_type="0">
+    <arc-tp place="3" x="1050" y="950" transition="19" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="26" x="700" y="550" transition="17" distr="0" block="0" block_type="0">
+    <arc-pt place="24" x="700" y="550" transition="19" distr="0" block="0" block_type="0">
         <distr_options value="300"/>
     </arc-pt>
-    <arc-pt place="17" x="525" y="575" transition="17" distr="0" block="0" block_type="0">
+    <arc-pt place="15" x="525" y="575" transition="19" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="300" y="675" distr="2" priority="0" n="18" name="TankFiller">
+    <transition x="300" y="675" distr="2" priority="0" n="20" name="TankFiller">
         <distr_options m="1" sigma="0"/>
     </transition>
-    <arc-tp place="26" x="300" y="550" transition="18" distr="0" block="0" block_type="0">
+    <arc-tp place="24" x="300" y="550" transition="20" distr="0" block="0" block_type="0">
         <distr_options value="50"/>
     </arc-tp>
-    <arc-tp place="25" x="300" y="750" transition="18" distr="0" block="0" block_type="0">
+    <arc-tp place="23" x="300" y="750" transition="20" distr="0" block="0" block_type="0">
         <distr_options value="50"/>
     </arc-tp>
-    <arc-pt place="22" x="350" y="675" transition="18" distr="0" block="0" block_type="0">
+    <arc-pt place="20" x="350" y="675" transition="20" distr="0" block="0" block_type="0">
         <distr_options value="50"/>
     </arc-pt>
-    <transition x="425" y="1325" distr="0" priority="0" n="19" name="RefuelCar1">
+    <transition x="250" y="1175" distr="2" priority="0" n="21" name="SpawnCar1">
+        <distr_options m="1" sigma="0"/>
+    </transition>
+    <arc-tp place="30" x="275" y="1175" transition="21" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-tp>
+    <transition x="425" y="1300" distr="0" priority="0" n="22" name="DropGun">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="37" x="475" y="1350" transition="19" distr="0" block="0" block_type="0">
+    <arc-tp place="27" x="375" y="1300" transition="22" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="34" x="475" y="1300" transition="19" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-tp place="31" x="500" y="1325" transition="19" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-pt place="32" x="375" y="1350" transition="19" distr="0" block="0" block_type="0">
+    <arc-pt place="31" x="425" y="1250" transition="22" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="36" x="375" y="1325" transition="19" distr="0" block="0" block_type="0">
+    <arc-pt place="33" x="525" y="1300" transition="22" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="38" x="400" y="1250" transition="19" distr="2" block="0" block_type="0">
-        <distr_options m="30" sigma="10"/>
-    </arc-pt>
-    <arc-pt place="30" x="450" y="1200" transition="19" distr="0" block="1" block_type="2">
-        <distr_options value="0"/>
-    </arc-pt>
-    <transition x="100" y="1325" distr="0" priority="0" n="20" name="SpawnCar1">
-        <distr_options value="1"/>
-    </transition>
-    <arc-tp place="29" x="125" y="1325" transition="20" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-tp place="28" x="75" y="1275" transition="20" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-pt place="28" x="75" y="1325" transition="20" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <transition x="425" y="1450" distr="0" priority="0" n="21" name="DropGun">
+    <transition x="775" y="1300" distr="0" priority="0" n="23" name="Paid">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="32" x="375" y="1450" transition="21" distr="0" block="0" block_type="0">
+    <arc-tp place="33" x="725" y="1300" transition="23" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="37" x="425" y="1400" transition="21" distr="0" block="0" block_type="0">
+    <arc-tp place="2" x="1025" y="675" transition="23" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-tp>
+    <arc-pt place="28" x="775" y="1250" transition="23" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="40" x="525" y="1450" transition="21" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <transition x="775" y="1450" distr="0" priority="0" n="22" name="Paid">
+    <transition x="775" y="1175" distr="0" priority="0" n="24" name="Pay">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="40" x="725" y="1450" transition="22" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-tp place="2" x="1025" y="675" transition="22" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-pt place="33" x="775" y="1400" transition="22" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <transition x="250" y="1325" distr="0" priority="0" n="23" name="Frequency1/3">
-        <distr_options value="0"/>
-    </transition>
-    <arc-tp place="36" x="275" y="1325" transition="23" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-pt place="29" x="225" y="1325" transition="23" distr="0" block="0" block_type="0">
-        <distr_options value="3"/>
-    </arc-pt>
-    <transition x="775" y="1325" distr="0" priority="0" n="24" name="Pay">
-        <distr_options value="0"/>
-    </transition>
-    <arc-tp place="33" x="675" y="1350" transition="24" distr="0" block="0" block_type="0">
+    <arc-tp place="28" x="675" y="1200" transition="24" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
     <arc-pt place="0" x="1025" y="775" transition="24" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <arc-pt place="31" x="675" y="1325" transition="24" distr="0" block="0" block_type="0">
+    <arc-pt place="26" x="675" y="1175" transition="24" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="775" y="1050" distr="0" priority="0" n="25" name="TankerGoBase">
+    <transition x="1550" y="1200" distr="0" priority="0" n="25" name="t4">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="3" x="1050" y="975" transition="25" distr="0" block="0" block_type="0">
+    <arc-tp place="35" x="1600" y="1200" transition="25" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="39" x="700" y="1050" transition="25" distr="0" block="0" block_type="0">
-        <distr_options value="300"/>
-    </arc-pt>
-    <arc-pt place="30" x="525" y="1075" transition="25" distr="0" block="0" block_type="0">
+    <arc-tp place="34" x="1500" y="1125" transition="25" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-tp>
+    <arc-pt place="34" x="1500" y="1200" transition="25" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="300" y="1175" distr="0" priority="0" n="26" name="TankFiller">
+    <transition x="1550" y="1325" distr="0" priority="0" n="26" name="t5">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="39" x="300" y="1050" transition="26" distr="0" block="0" block_type="0">
-        <distr_options value="50"/>
-    </arc-tp>
-    <arc-tp place="38" x="300" y="1250" transition="26" distr="0" block="0" block_type="0">
-        <distr_options value="50"/>
-    </arc-tp>
-    <arc-pt place="35" x="350" y="1175" transition="26" distr="0" block="0" block_type="0">
-        <distr_options value="50"/>
-    </arc-pt>
-    <transition x="1550" y="1200" distr="0" priority="0" n="27" name="t4">
-        <distr_options value="0"/>
-    </transition>
-    <arc-tp place="42" x="1600" y="1200" transition="27" distr="0" block="0" block_type="0">
+    <arc-tp place="36" x="1600" y="1325" transition="26" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-tp place="41" x="1500" y="1125" transition="27" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-pt place="41" x="1500" y="1200" transition="27" distr="0" block="0" block_type="0">
+    <arc-pt place="35" x="1600" y="1250" transition="26" distr="0" block="10" block_type="1">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="1550" y="1325" distr="0" priority="0" n="28" name="t5">
-        <distr_options value="0"/>
-    </transition>
-    <arc-tp place="43" x="1600" y="1325" transition="28" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-pt place="42" x="1600" y="1250" transition="28" distr="0" block="10" block_type="1">
-        <distr_options value="1"/>
-    </arc-pt>
-    <transition x="1725" y="1200" distr="2" priority="0" n="29" name="t6">
+    <transition x="1725" y="1200" distr="2" priority="0" n="27" name="t6">
         <distr_options m="1" sigma="5"/>
     </transition>
-    <arc-tp place="44" x="1750" y="1200" transition="29" distr="0" block="0" block_type="0">
+    <arc-tp place="37" x="1750" y="1200" transition="27" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="42" x="1700" y="1200" transition="29" distr="0" block="0" block_type="0">
+    <arc-pt place="35" x="1700" y="1200" transition="27" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="1225" y="800" distr="3" priority="0" n="30" name="t1">
+    <transition x="1225" y="800" distr="3" priority="0" n="28" name="t1">
         <distr_options m="20"/>
     </transition>
-    <arc-tp place="45" x="1300" y="800" transition="30" distr="0" block="0" block_type="0">
+    <arc-tp place="38" x="1300" y="800" transition="28" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="1" x="1100" y="800" transition="30" distr="0" block="0" block_type="0">
+    <arc-pt place="1" x="1100" y="800" transition="28" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="1200" y="850" distr="3" priority="0" n="31" name="t2">
+    <transition x="1200" y="850" distr="3" priority="0" n="29" name="t2">
         <distr_options m="20"/>
     </transition>
-    <arc-tp place="1" x="1150" y="850" transition="31" distr="0" block="0" block_type="0">
+    <arc-tp place="1" x="1150" y="850" transition="29" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="45" x="1250" y="850" transition="31" distr="0" block="0" block_type="0">
+    <arc-pt place="38" x="1250" y="850" transition="29" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="275" y="1450" distr="0" priority="0" n="32" name="t4">
+    <transition x="275" y="1300" distr="0" priority="0" n="30" name="t4">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="46" x="225" y="1450" transition="32" distr="0" block="0" block_type="0">
+    <arc-tp place="39" x="225" y="1300" transition="30" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="36" x="325" y="1450" transition="32" distr="0" block="10" block_type="1">
+    <arc-pt place="30" x="325" y="1300" transition="30" distr="0" block="10" block_type="1">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="325" y="925" distr="0" priority="0" n="33" name="t4">
+    <transition x="325" y="925" distr="0" priority="0" n="31" name="t4">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="47" x="275" y="925" transition="33" distr="0" block="0" block_type="0">
+    <arc-tp place="5" x="100" y="925" transition="31" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="23" x="325" y="875" transition="33" distr="0" block="10" block_type="1">
+    <arc-pt place="21" x="325" y="875" transition="31" distr="0" block="10" block_type="1">
         <distr_options value="1"/>
     </arc-pt>
-    <transition x="250" y="400" distr="0" priority="0" n="34" name="t4">
+    <transition x="250" y="400" distr="0" priority="0" n="32" name="t4">
         <distr_options value="0"/>
     </transition>
-    <arc-tp place="48" x="200" y="400" transition="34" distr="0" block="0" block_type="0">
+    <arc-tp place="40" x="200" y="400" transition="32" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-tp>
-    <arc-pt place="5" x="250" y="350" transition="34" distr="0" block="10" block_type="1">
+    <arc-pt place="5" x="250" y="350" transition="32" distr="0" block="10" block_type="1">
+        <distr_options value="1"/>
+    </arc-pt>
+    <transition x="275" y="1100" distr="3" priority="0" n="33" name="t1">
+        <distr_options m="4"/>
+    </transition>
+    <arc-tp place="41" x="250" y="1050" transition="33" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-tp>
+    <arc-tp place="32" x="300" y="1100" transition="33" distr="0" block="0" block_type="0">
+        <distr_options value="300"/>
+    </arc-tp>
+    <arc-pt place="41" x="250" y="1100" transition="33" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-pt>
+    <arc-pt place="32" x="325" y="1050" transition="33" distr="0" block="200" block_type="2">
+        <distr_options value="0"/>
+    </arc-pt>
+    <transition x="475" y="1375" distr="3" priority="0" n="34" name="t7">
+        <distr_options m="100"/>
+    </transition>
+    <arc-tp place="27" x="375" y="1350" transition="34" distr="0" block="0" block_type="0">
+        <distr_options value="1"/>
+    </arc-tp>
+    <arc-pt place="43" x="450" y="1400" transition="34" distr="0" block="0" block_type="0">
         <distr_options value="1"/>
     </arc-pt>
 </objects>
