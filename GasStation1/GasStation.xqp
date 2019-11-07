@@ -1,506 +1,511 @@
 <objects>
-    <place x="925" y="625" n="0" value="4" name="Кассир свободен"/>
-    <place x="925" y="725" n="1" value="2" name="Бензовоз"/>
-    <place x="925" y="525" n="2" value="0" name="Кассир пришел"/>
-    <place x="925" y="825" n="3" value="0" name="Бензовоз приехал"/>
-    <place x="425" y="350" n="4" value="0" name="Используется"/>
-    <place x="200" y="275" n="5" value="2" name="Очередь на заправку"/>
-    <place x="500" y="75" n="6" value="0" name="Бензовоз заправляет"/>
-    <place x="300" y="200" n="7" value="500" name="Цистерна 92го"/>
-    <place x="525" y="275" n="8" value="0" name="На оплату"/>
-    <place x="325" y="350" n="9" value="6" name="Топливный пистолет"/>
-    <place x="625" y="350" n="10" value="0" name="Оплана в процессе"/>
-    <place x="350" y="50" n="11" value="0" name="Слито с бензовоза"/>
-    <place x="525" y="200" n="12" value="0" name="Машин заправлено"/>
-    <place x="525" y="400" n="13" value="0" name="Идут в машину"/>
-    <place x="350" y="125" n="14" value="0" name="Топлива в бензовозе"/>
-    <place x="475" y="525" n="15" value="0" name="Бензовоз заправляет"/>
-    <place x="525" y="725" n="16" value="0" name="Идут в кассу"/>
-    <place x="325" y="800" n="17" value="4" name="Топливный пистолет"/>
-    <place x="625" y="800" n="18" value="0" name="Оплана в процессе"/>
-    <place x="525" y="650" n="19" value="0" name="Машин заправлено"/>
-    <place x="350" y="575" n="20" value="0" name="Топлива в бензовозе"/>
-    <place x="275" y="725" n="21" value="0" name="Очередь на заправку"/>
-    <place x="425" y="800" n="22" value="0" name="Используется"/>
-    <place x="300" y="650" n="23" value="500" name="Цистерна 95го"/>
-    <place x="350" y="500" n="24" value="0" name="Слито с бензовоза"/>
-    <place x="525" y="850" n="25" value="0" name="Идут в машину"/>
-    <place x="525" y="1025" n="26" value="0" name="Идут в кассу"/>
-    <place x="325" y="1100" n="27" value="1" name="Пистолетов"/>
-    <place x="625" y="1100" n="28" value="0" name="Оплата"/>
-    <place x="525" y="950" n="29" value="0" name="ElicticCarFilled"/>
-    <place x="275" y="1025" n="30" value="0" name="Машин на зарядку"/>
-    <place x="425" y="1100" n="31" value="0" name="Пистолет в машине"/>
-    <place x="300" y="950" n="32" value="500" name="Аккумуляторы"/>
-    <place x="525" y="1150" n="33" value="0" name="Идут в машину"/>
-    <place x="1425" y="1125" n="34" value="20" name="p5"/>
-    <place x="1650" y="1200" n="35" value="0" name="p6"/>
-    <place x="1650" y="1325" n="36" value="0" name="p8"/>
-    <place x="1800" y="1200" n="37" value="0" name="p9"/>
-    <place x="1125" y="725" n="38" value="0" name="Бензовоз на ремонте"/>
-    <place x="125" y="1150" n="39" value="0" name="Клиентов упущено"/>
-    <place x="75" y="375" n="40" value="0" name="Клиентов упущено"/>
-    <place x="250" y="1250" n="41" value="0" name="Сигнал"/>
-    <place x="425" y="1250" n="42" value="0" name="На ремонте"/>
-    <place x="1125" y="650" n="43" value="0" name="Флаг"/>
-    <place x="1175" y="575" n="44" value="0" name="Кассир в отпуске"/>
-    <place x="1150" y="450" n="45" value="0" name="Флаг"/>
-    <place x="175" y="750" n="46" value="0" name="Уехало на 92"/>
-    <transition x="325" y="1250" distr="0" priority="2" n="0" name="Поломка пистолета">
-        <distr_options value="1"/>
+    <invariant gt_event_value="500000" gt_event_type="1" lt_event_value="100000" name="Касса" svalue="200000" lt_event_type="2" />
+    <place x="925" y="625" n="0" value="4" name="Кассир свободен" />
+    <place x="925" y="725" n="1" value="2" name="Бензовоз" />
+    <place x="925" y="525" n="2" value="0" name="Кассир пришел" />
+    <place x="925" y="825" n="3" value="0" name="Бензовоз приехал" />
+    <place x="425" y="350" n="4" value="0" name="Используется" />
+    <place x="200" y="275" n="5" value="2" name="Очередь на заправку" />
+    <place x="500" y="75" n="6" value="0" name="Бензовоз заправляет" />
+    <place x="300" y="200" n="7" value="500" name="Цистерна 92го" />
+    <place x="525" y="275" n="8" value="0" name="На оплату" />
+    <place x="325" y="350" n="9" value="6" name="Топливный пистолет" />
+    <place x="625" y="350" n="10" value="0" name="Оплана в процессе" />
+    <place x="350" y="50" n="11" value="0" name="Слито с бензовоза" />
+    <place x="525" y="200" n="12" value="0" name="Машин заправлено" />
+    <place x="525" y="400" n="13" value="0" name="Идут в машину" />
+    <place x="350" y="125" n="14" value="0" name="Топлива в бензовозе" />
+    <place x="475" y="525" n="15" value="0" name="Бензовоз заправляет" />
+    <place x="525" y="725" n="16" value="0" name="Идут в кассу" />
+    <place x="325" y="800" n="17" value="4" name="Топливный пистолет" />
+    <place x="625" y="800" n="18" value="0" name="Оплана в процессе" />
+    <place x="525" y="650" n="19" value="0" name="Машин заправлено" />
+    <place x="350" y="575" n="20" value="0" name="Топлива в бензовозе" />
+    <place x="275" y="725" n="21" value="0" name="Очередь на заправку" />
+    <place x="425" y="800" n="22" value="0" name="Используется" />
+    <place x="300" y="650" n="23" value="500" name="Цистерна 95го" />
+    <place x="350" y="500" n="24" value="0" name="Слито с бензовоза" />
+    <place x="525" y="850" n="25" value="0" name="Идут в машину" />
+    <place x="525" y="1025" n="26" value="0" name="Идут в кассу" />
+    <place x="325" y="1100" n="27" value="1" name="Пистолетов" />
+    <place x="625" y="1100" n="28" value="0" name="Оплата" />
+    <place x="525" y="950" n="29" value="0" name="ElicticCarFilled" />
+    <place x="275" y="1025" n="30" value="0" name="Машин на зарядку" />
+    <place x="425" y="1100" n="31" value="0" name="Пистолет в машине" />
+    <place x="300" y="950" n="32" value="500" name="Аккумуляторы" />
+    <place x="525" y="1150" n="33" value="0" name="Идут в машину" />
+    <place x="1425" y="1125" n="34" value="20" name="p5" />
+    <place x="1650" y="1200" n="35" value="0" name="p6" />
+    <place x="1650" y="1325" n="36" value="0" name="p8" />
+    <place x="1800" y="1200" n="37" value="0" name="p9" />
+    <place x="1125" y="725" n="38" value="0" name="Бензовоз на ремонте" />
+    <place x="125" y="1150" n="39" value="0" name="Клиентов упущено" />
+    <place x="75" y="375" n="40" value="0" name="Клиентов упущено" />
+    <place x="250" y="1250" n="41" value="0" name="Сигнал" />
+    <place x="425" y="1250" n="42" value="0" name="На ремонте" />
+    <place x="1125" y="650" n="43" value="0" name="Флаг" />
+    <place x="1175" y="575" n="44" value="0" name="Кассир в отпуске" />
+    <place x="1150" y="450" n="45" value="0" name="Флаг" />
+    <place x="1275" y="575" n="46" value="0" name="Счетчик отпусков" />
+    <place x="425" y="1325" n="47" value="0" name="Счетчик поломок" />
+    <place x="1150" y="800" n="48" value="0" name="Счетчик поломок" />
+    <transition x="325" y="1250" inv_change="0" distr="0" priority="2" n="0" affects_inv="0" name="Поломка пистолета" >
+        <distr_options value="1" />
     </transition>
-    <arc-tp place="42" x="350" y="1250" transition="0" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="42" x="350" y="1250" transition="0" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="41" x="300" y="1250" transition="0" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="47" x="375" y="1275" transition="0" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
+    </arc-tp>
+    <arc-pt place="41" x="300" y="1250" transition="0" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="27" x="300" y="1225" transition="0" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="27" x="300" y="1225" transition="0" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="725" y="200" distr="2" priority="1" n="1" name="Требуется дозаправка">
-        <distr_options m="5" sigma="2"/>
+    <transition x="725" y="200" inv_change="0" distr="2" priority="1" n="1" affects_inv="0" name="Требуется дозаправка" >
+        <distr_options m="5" sigma="2" />
     </transition>
-    <arc-tp place="14" x="550" y="125" transition="1" distr="0" block="0" block_type="0">
-        <distr_options value="600"/>
+    <arc-tp place="14" x="550" y="125" transition="1" distr="0" block="0" block_type="0" >
+        <distr_options value="600" />
     </arc-tp>
-    <arc-tp place="6" x="650" y="125" transition="1" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="6" x="650" y="125" transition="1" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="2" x="875" y="500" transition="1" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="2" x="875" y="500" transition="1" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="0" x="875" y="600" transition="1" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="0" x="875" y="600" transition="1" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="1" x="875" y="700" transition="1" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="1" x="875" y="700" transition="1" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="7" x="525" y="150" transition="1" distr="0" block="110" block_type="2">
-        <distr_options value="0"/>
+    <arc-pt place="7" x="525" y="150" transition="1" distr="0" block="110" block_type="2" >
+        <distr_options value="0" />
     </arc-pt>
-    <transition x="725" y="650" distr="2" priority="1" n="2" name="Требуется дозаправка">
-        <distr_options m="5" sigma="2"/>
+    <transition x="725" y="650" inv_change="0" distr="2" priority="1" n="2" affects_inv="0" name="Требуется дозаправка" >
+        <distr_options m="5" sigma="2" />
     </transition>
-    <arc-tp place="20" x="550" y="575" transition="2" distr="0" block="0" block_type="0">
-        <distr_options value="300"/>
+    <arc-tp place="20" x="550" y="575" transition="2" distr="0" block="0" block_type="0" >
+        <distr_options value="300" />
     </arc-tp>
-    <arc-tp place="15" x="725" y="575" transition="2" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="15" x="725" y="575" transition="2" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="2" x="875" y="525" transition="2" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="2" x="875" y="525" transition="2" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="0" x="875" y="625" transition="2" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="0" x="875" y="625" transition="2" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="1" x="875" y="725" transition="2" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="1" x="875" y="725" transition="2" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="23" x="475" y="600" transition="2" distr="0" block="100" block_type="2">
-        <distr_options value="0"/>
+    <arc-pt place="23" x="475" y="600" transition="2" distr="0" block="100" block_type="2" >
+        <distr_options value="0" />
     </arc-pt>
-    <transition x="375" y="1025" distr="2" priority="1" n="3" name="Зарядить машину">
-        <distr_options m="5" sigma="0"/>
+    <transition x="375" y="1025" inv_change="0" distr="2" priority="1" n="3" affects_inv="0" name="Зарядить машину" >
+        <distr_options m="5" sigma="0" />
     </transition>
-    <arc-tp place="31" x="425" y="1050" transition="3" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="31" x="425" y="1050" transition="3" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="29" x="425" y="1000" transition="3" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="29" x="425" y="1000" transition="3" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="26" x="450" y="1025" transition="3" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="26" x="450" y="1025" transition="3" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="27" x="325" y="1050" transition="3" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="27" x="325" y="1050" transition="3" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="30" x="325" y="1025" transition="3" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="30" x="325" y="1025" transition="3" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="32" x="350" y="950" transition="3" distr="2" block="0" block_type="0">
-        <distr_options m="30" sigma="10"/>
+    <arc-pt place="32" x="350" y="950" transition="3" distr="2" block="0" block_type="0" >
+        <distr_options m="30" sigma="10" />
     </arc-pt>
-    <transition x="175" y="1250" distr="3" priority="0" n="4" name="Событие">
-        <distr_options m="5000"/>
+    <transition x="175" y="1250" inv_change="0" distr="3" priority="0" n="4" affects_inv="0" name="Событие" >
+        <distr_options m="5000" />
     </transition>
-    <arc-tp place="41" x="200" y="1250" transition="4" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="41" x="200" y="1250" transition="4" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <transition x="975" y="575" distr="0" priority="0" n="5" name="Кассир возвращяется">
-        <distr_options value="0"/>
+    <transition x="975" y="575" inv_change="0" distr="0" priority="0" n="5" affects_inv="0" name="Кассир возвращяется" >
+        <distr_options value="0" />
     </transition>
-    <arc-tp place="0" x="975" y="625" transition="5" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="0" x="975" y="625" transition="5" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="2" x="975" y="525" transition="5" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="2" x="975" y="525" transition="5" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="1050" y="825" distr="0" priority="0" n="6" name="Бензовоз заправляется">
-        <distr_options value="0"/>
+    <transition x="1050" y="825" inv_change="0" distr="0" priority="0" n="6" affects_inv="0" name="Бензовоз заправляется" >
+        <distr_options value="0" />
     </transition>
-    <arc-tp place="1" x="975" y="800" transition="6" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="1" x="975" y="800" transition="6" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="3" x="975" y="825" transition="6" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="3" x="975" y="825" transition="6" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="725" y="275" distr="2" priority="0" n="7" name="Оплата">
-        <distr_options m="5" sigma="2"/>
+    <transition x="725" y="275" inv_change="0" distr="2" priority="0" n="7" affects_inv="0" name="Оплата" >
+        <distr_options m="5" sigma="2" />
     </transition>
-    <arc-tp place="10" x="625" y="300" transition="7" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="10" x="625" y="300" transition="7" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="8" x="675" y="275" transition="7" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="8" x="675" y="275" transition="7" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="0" x="850" y="600" transition="7" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="0" x="850" y="600" transition="7" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="725" y="400" distr="2" priority="0" n="8" name="Оплачено">
-        <distr_options m="2" sigma="1"/>
+    <transition x="725" y="400" inv_change="0" distr="2" priority="0" n="8" affects_inv="0" name="Оплачено" >
+        <distr_options m="2" sigma="1" />
     </transition>
-    <arc-tp place="13" x="675" y="400" transition="8" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="13" x="675" y="400" transition="8" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="2" x="850" y="500" transition="8" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="2" x="850" y="500" transition="8" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="10" x="725" y="350" transition="8" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="10" x="725" y="350" transition="8" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="250" y="125" distr="2" priority="0" n="9" name="Залить топливо">
-        <distr_options m="1" sigma="0"/>
+    <transition x="250" y="125" inv_change="0" distr="2" priority="0" n="9" affects_inv="0" name="Залить топливо" >
+        <distr_options m="1" sigma="0" />
     </transition>
-    <arc-tp place="7" x="250" y="200" transition="9" distr="0" block="0" block_type="0">
-        <distr_options value="60"/>
+    <arc-tp place="7" x="250" y="200" transition="9" distr="0" block="0" block_type="0" >
+        <distr_options value="60" />
     </arc-tp>
-    <arc-tp place="11" x="250" y="50" transition="9" distr="0" block="0" block_type="0">
-        <distr_options value="60"/>
+    <arc-tp place="11" x="250" y="50" transition="9" distr="0" block="0" block_type="0" >
+        <distr_options value="60" />
     </arc-tp>
-    <arc-pt place="14" x="300" y="125" transition="9" distr="0" block="0" block_type="0">
-        <distr_options value="60"/>
+    <arc-pt place="14" x="300" y="125" transition="9" distr="0" block="0" block_type="0" >
+        <distr_options value="60" />
     </arc-pt>
-    <transition x="725" y="100" distr="2" priority="0" n="10" name="Бензовоз на базу">
-        <distr_options m="10" sigma="0"/>
+    <transition x="725" y="100" inv_change="0" distr="2" priority="0" n="10" affects_inv="0" name="Бензовоз на базу" >
+        <distr_options m="10" sigma="0" />
     </transition>
-    <arc-tp place="3" x="875" y="800" transition="10" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="3" x="875" y="800" transition="10" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="11" x="600" y="50" transition="10" distr="0" block="0" block_type="0">
-        <distr_options value="600"/>
+    <arc-pt place="11" x="600" y="50" transition="10" distr="0" block="0" block_type="0" >
+        <distr_options value="600" />
     </arc-pt>
-    <arc-pt place="6" x="600" y="75" transition="10" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="6" x="600" y="75" transition="10" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="75" y="275" distr="2" priority="0" n="11" name="Генератор машин">
-        <distr_options m="6" sigma="0"/>
+    <transition x="75" y="275" inv_change="0" distr="2" priority="0" n="11" affects_inv="0" name="Генератор машин" >
+        <distr_options m="6" sigma="0" />
     </transition>
-    <arc-tp place="5" x="150" y="275" transition="11" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="5" x="150" y="275" transition="11" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <transition x="375" y="275" distr="2" priority="0" n="12" name="Заправка машины">
-        <distr_options m="1" sigma="0"/>
+    <transition x="375" y="275" inv_change="0" distr="2" priority="0" n="12" affects_inv="0" name="Заправка машины" >
+        <distr_options m="1" sigma="0" />
     </transition>
-    <arc-tp place="12" x="425" y="250" transition="12" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="12" x="425" y="250" transition="12" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="8" x="450" y="275" transition="12" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="8" x="450" y="275" transition="12" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="4" x="425" y="300" transition="12" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="4" x="425" y="300" transition="12" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="9" x="325" y="300" transition="12" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="9" x="325" y="300" transition="12" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="7" x="350" y="200" transition="12" distr="2" block="0" block_type="0">
-        <distr_options m="30" sigma="10"/>
+    <arc-pt place="7" x="350" y="200" transition="12" distr="2" block="0" block_type="0" >
+        <distr_options m="30" sigma="10" />
     </arc-pt>
-    <arc-pt place="6" x="400" y="200" transition="12" distr="0" block="1" block_type="2">
-        <distr_options value="0"/>
+    <arc-pt place="6" x="400" y="200" transition="12" distr="0" block="1" block_type="2" >
+        <distr_options value="0" />
     </arc-pt>
-    <arc-pt place="5" x="275" y="275" transition="12" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="5" x="275" y="275" transition="12" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="375" y="400" distr="2" priority="0" n="13" name="Вернуть пистолет">
-        <distr_options m="1" sigma="0"/>
+    <transition x="375" y="400" inv_change="0" distr="2" priority="0" n="13" affects_inv="0" name="Вернуть пистолет" >
+        <distr_options m="1" sigma="0" />
     </transition>
-    <arc-tp place="9" x="325" y="400" transition="13" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="9" x="325" y="400" transition="13" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="13" x="475" y="400" transition="13" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="13" x="475" y="400" transition="13" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="4" x="375" y="350" transition="13" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="4" x="375" y="350" transition="13" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="375" y="725" distr="2" priority="0" n="14" name="Заправка машины">
-        <distr_options m="1" sigma="0"/>
+    <transition x="375" y="725" inv_change="0" distr="2" priority="0" n="14" affects_inv="0" name="Заправка машины" >
+        <distr_options m="1" sigma="0" />
     </transition>
-    <arc-tp place="22" x="425" y="750" transition="14" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="22" x="425" y="750" transition="14" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="19" x="425" y="700" transition="14" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="19" x="425" y="700" transition="14" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="16" x="450" y="725" transition="14" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="16" x="450" y="725" transition="14" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="17" x="325" y="750" transition="14" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="17" x="325" y="750" transition="14" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="21" x="325" y="725" transition="14" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="21" x="325" y="725" transition="14" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="23" x="350" y="650" transition="14" distr="2" block="0" block_type="0">
-        <distr_options m="30" sigma="10"/>
+    <arc-pt place="23" x="350" y="650" transition="14" distr="2" block="0" block_type="0" >
+        <distr_options m="30" sigma="10" />
     </arc-pt>
-    <arc-pt place="15" x="400" y="600" transition="14" distr="0" block="1" block_type="2">
-        <distr_options value="0"/>
+    <arc-pt place="15" x="400" y="600" transition="14" distr="0" block="1" block_type="2" >
+        <distr_options value="0" />
     </arc-pt>
-    <transition x="200" y="675" distr="3" priority="0" n="15" name="Генератор машин">
-        <distr_options m="4"/>
+    <transition x="200" y="675" inv_change="0" distr="3" priority="0" n="15" affects_inv="0" name="Генератор машин" >
+        <distr_options m="4" />
     </transition>
-    <arc-tp place="21" x="225" y="675" transition="15" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="21" x="225" y="675" transition="15" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <transition x="375" y="850" distr="2" priority="0" n="16" name="Вернуть пистолет">
-        <distr_options m="1" sigma="1"/>
+    <transition x="375" y="850" inv_change="0" distr="2" priority="0" n="16" affects_inv="0" name="Вернуть пистолет" >
+        <distr_options m="1" sigma="1" />
     </transition>
-    <arc-tp place="17" x="325" y="850" transition="16" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="17" x="325" y="850" transition="16" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="22" x="375" y="800" transition="16" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="22" x="375" y="800" transition="16" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="25" x="475" y="850" transition="16" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="25" x="475" y="850" transition="16" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="725" y="850" distr="2" priority="0" n="17" name="Оплачено">
-        <distr_options m="1" sigma="0"/>
+    <transition x="725" y="850" inv_change="0" distr="2" priority="0" n="17" affects_inv="0" name="Оплачено" >
+        <distr_options m="1" sigma="0" />
     </transition>
-    <arc-tp place="25" x="675" y="850" transition="17" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="25" x="675" y="850" transition="17" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="2" x="850" y="525" transition="17" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="2" x="850" y="525" transition="17" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="18" x="725" y="800" transition="17" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="18" x="725" y="800" transition="17" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="725" y="725" distr="2" priority="0" n="18" name="Pay">
-        <distr_options m="2" sigma="2"/>
+    <transition x="725" y="725" inv_change="0" distr="2" priority="0" n="18" affects_inv="0" name="Pay" >
+        <distr_options m="2" sigma="2" />
     </transition>
-    <arc-tp place="18" x="625" y="750" transition="18" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="18" x="625" y="750" transition="18" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="16" x="675" y="725" transition="18" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="16" x="675" y="725" transition="18" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="0" x="850" y="625" transition="18" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="0" x="850" y="625" transition="18" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="725" y="525" distr="2" priority="0" n="19" name="Бензовоз на базу">
-        <distr_options m="10" sigma="0"/>
+    <transition x="725" y="525" inv_change="0" distr="2" priority="0" n="19" affects_inv="0" name="Бензовоз на базу" >
+        <distr_options m="10" sigma="0" />
     </transition>
-    <arc-tp place="3" x="875" y="825" transition="19" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="3" x="875" y="825" transition="19" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="24" x="550" y="500" transition="19" distr="0" block="0" block_type="0">
-        <distr_options value="300"/>
+    <arc-pt place="24" x="550" y="500" transition="19" distr="0" block="0" block_type="0" >
+        <distr_options value="300" />
     </arc-pt>
-    <arc-pt place="15" x="550" y="525" transition="19" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="15" x="550" y="525" transition="19" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="250" y="575" distr="2" priority="0" n="20" name="Залить топливо">
-        <distr_options m="1" sigma="0"/>
+    <transition x="250" y="575" inv_change="0" distr="2" priority="0" n="20" affects_inv="0" name="Залить топливо" >
+        <distr_options m="1" sigma="0" />
     </transition>
-    <arc-tp place="24" x="250" y="500" transition="20" distr="0" block="0" block_type="0">
-        <distr_options value="50"/>
+    <arc-tp place="24" x="250" y="500" transition="20" distr="0" block="0" block_type="0" >
+        <distr_options value="50" />
     </arc-tp>
-    <arc-tp place="23" x="250" y="650" transition="20" distr="0" block="0" block_type="0">
-        <distr_options value="50"/>
+    <arc-tp place="23" x="250" y="650" transition="20" distr="0" block="0" block_type="0" >
+        <distr_options value="50" />
     </arc-tp>
-    <arc-pt place="20" x="300" y="575" transition="20" distr="0" block="0" block_type="0">
-        <distr_options value="50"/>
+    <arc-pt place="20" x="300" y="575" transition="20" distr="0" block="0" block_type="0" >
+        <distr_options value="50" />
     </arc-pt>
-    <transition x="175" y="1025" distr="2" priority="0" n="21" name="Генератор машин">
-        <distr_options m="14" sigma="0"/>
+    <transition x="175" y="1025" inv_change="0" distr="2" priority="0" n="21" affects_inv="0" name="Генератор машин" >
+        <distr_options m="14" sigma="0" />
     </transition>
-    <arc-tp place="30" x="225" y="1025" transition="21" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="30" x="225" y="1025" transition="21" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <transition x="375" y="1150" distr="0" priority="0" n="22" name="Вернуть пистолет">
-        <distr_options value="0"/>
+    <transition x="375" y="1150" inv_change="0" distr="0" priority="0" n="22" affects_inv="0" name="Вернуть пистолет" >
+        <distr_options value="0" />
     </transition>
-    <arc-tp place="27" x="325" y="1150" transition="22" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="27" x="325" y="1150" transition="22" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="31" x="375" y="1100" transition="22" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="31" x="375" y="1100" transition="22" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="33" x="475" y="1150" transition="22" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="33" x="475" y="1150" transition="22" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="725" y="1150" distr="0" priority="0" n="23" name="Paid">
-        <distr_options value="0"/>
+    <transition x="725" y="1150" inv_change="0" distr="0" priority="0" n="23" affects_inv="0" name="Paid" >
+        <distr_options value="0" />
     </transition>
-    <arc-tp place="33" x="675" y="1150" transition="23" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="33" x="675" y="1150" transition="23" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="2" x="850" y="550" transition="23" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="2" x="850" y="550" transition="23" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="28" x="725" y="1100" transition="23" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="28" x="725" y="1100" transition="23" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="725" y="1025" distr="0" priority="0" n="24" name="Оплатить">
-        <distr_options value="0"/>
+    <transition x="725" y="1025" inv_change="0" distr="0" priority="0" n="24" affects_inv="0" name="Оплатить" >
+        <distr_options value="0" />
     </transition>
-    <arc-tp place="28" x="625" y="1050" transition="24" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="28" x="625" y="1050" transition="24" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="0" x="850" y="650" transition="24" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="0" x="850" y="650" transition="24" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="26" x="625" y="1025" transition="24" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="26" x="625" y="1025" transition="24" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="1500" y="1125" distr="0" priority="0" n="25" name="t4">
-        <distr_options value="0"/>
+    <transition x="1500" y="1125" inv_change="0" distr="0" priority="0" n="25" affects_inv="0" name="t4" >
+        <distr_options value="0" />
     </transition>
-    <arc-tp place="35" x="1600" y="1200" transition="25" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="35" x="1600" y="1200" transition="25" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="34" x="1450" y="1050" transition="25" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="34" x="1450" y="1050" transition="25" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="34" x="1450" y="1125" transition="25" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="34" x="1450" y="1125" transition="25" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="1500" y="1250" distr="0" priority="0" n="26" name="t5">
-        <distr_options value="0"/>
+    <transition x="1500" y="1250" inv_change="0" distr="0" priority="0" n="26" affects_inv="0" name="t5" >
+        <distr_options value="0" />
     </transition>
-    <arc-tp place="36" x="1600" y="1325" transition="26" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="36" x="1600" y="1325" transition="26" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="35" x="1600" y="1250" transition="26" distr="0" block="10" block_type="1">
-        <distr_options value="1"/>
+    <arc-pt place="35" x="1600" y="1250" transition="26" distr="0" block="10" block_type="1" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="1725" y="1200" distr="2" priority="0" n="27" name="t6">
-        <distr_options m="1" sigma="5"/>
+    <transition x="1725" y="1200" inv_change="0" distr="2" priority="0" n="27" affects_inv="0" name="t6" >
+        <distr_options m="1" sigma="5" />
     </transition>
-    <arc-tp place="37" x="1750" y="1200" transition="27" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="37" x="1750" y="1200" transition="27" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="35" x="1700" y="1200" transition="27" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="35" x="1700" y="1200" transition="27" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="225" y="1150" distr="0" priority="0" n="28" name="выйти из очереди">
-        <distr_options value="0"/>
+    <transition x="225" y="1150" inv_change="0" distr="0" priority="0" n="28" affects_inv="0" name="выйти из очереди" >
+        <distr_options value="0" />
     </transition>
-    <arc-tp place="39" x="175" y="1150" transition="28" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="39" x="175" y="1150" transition="28" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="30" x="275" y="1150" transition="28" distr="0" block="10" block_type="1">
-        <distr_options value="1"/>
+    <arc-pt place="30" x="275" y="1150" transition="28" distr="0" block="10" block_type="1" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="225" y="800" distr="0" priority="0" n="29" name="Заправить 92м">
-        <distr_options value="0"/>
+    <transition x="225" y="800" inv_change="0" distr="0" priority="0" n="29" affects_inv="0" name="Заправить 92м" >
+        <distr_options value="0" />
     </transition>
-    <arc-tp place="5" x="75" y="825" transition="29" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="5" x="75" y="825" transition="29" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-tp place="46" x="200" y="775" transition="29" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-tp>
-    <arc-pt place="21" x="275" y="800" transition="29" distr="0" block="10" block_type="1">
-        <distr_options value="1"/>
+    <arc-pt place="21" x="275" y="800" transition="29" distr="0" block="10" block_type="1" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="200" y="375" distr="0" priority="0" n="30" name="Выйти из очереди">
-        <distr_options value="0"/>
+    <transition x="200" y="375" inv_change="0" distr="0" priority="0" n="30" affects_inv="0" name="Выйти из очереди" >
+        <distr_options value="0" />
     </transition>
-    <arc-tp place="40" x="150" y="375" transition="30" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="40" x="150" y="375" transition="30" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="5" x="200" y="325" transition="30" distr="0" block="10" block_type="1">
-        <distr_options value="1"/>
+    <arc-pt place="5" x="200" y="325" transition="30" distr="0" block="10" block_type="1" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="175" y="950" distr="3" priority="0" n="31" name="Генератор электричества">
-        <distr_options m="4"/>
+    <transition x="175" y="950" inv_change="0" distr="3" priority="0" n="31" affects_inv="0" name="Генератор электричества" >
+        <distr_options m="4" />
     </transition>
-    <arc-tp place="32" x="250" y="950" transition="31" distr="0" block="0" block_type="0">
-        <distr_options value="300"/>
+    <arc-tp place="32" x="250" y="950" transition="31" distr="0" block="0" block_type="0" >
+        <distr_options value="300" />
     </arc-tp>
-    <arc-pt place="32" x="250" y="900" transition="31" distr="0" block="200" block_type="2">
-        <distr_options value="0"/>
+    <arc-pt place="32" x="250" y="900" transition="31" distr="0" block="200" block_type="2" >
+        <distr_options value="0" />
     </arc-pt>
-    <transition x="500" y="1225" distr="3" priority="0" n="32" name="Отремонтировать">
-        <distr_options m="100"/>
+    <transition x="500" y="1225" inv_change="0" distr="3" priority="0" n="32" affects_inv="0" name="Отремонтировать" >
+        <distr_options m="100" />
     </transition>
-    <arc-tp place="27" x="325" y="1200" transition="32" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="27" x="325" y="1200" transition="32" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="42" x="400" y="1250" transition="32" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="42" x="400" y="1250" transition="32" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="1025" y="675" distr="0" priority="0" n="33" name="Сломать бензовоз">
-        <distr_options value="0"/>
+    <transition x="1025" y="675" inv_change="0" distr="0" priority="0" n="33" affects_inv="0" name="Сломать бензовоз" >
+        <distr_options value="0" />
     </transition>
-    <arc-tp place="38" x="1075" y="700" transition="33" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="38" x="1075" y="700" transition="33" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="43" x="1075" y="675" transition="33" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <arc-pt place="1" x="975" y="700" transition="33" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <transition x="1025" y="750" distr="2" priority="0" n="34" name="Отремонтировать">
-        <distr_options m="20" sigma="0"/>
-    </transition>
-    <arc-tp place="1" x="975" y="750" transition="34" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="48" x="1075" y="750" transition="33" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="38" x="1075" y="750" transition="34" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="43" x="1075" y="675" transition="33" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <transition x="1225" y="650" distr="3" priority="0" n="35" name="Генератор события">
-        <distr_options m="1000"/>
+    <arc-pt place="1" x="975" y="700" transition="33" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
+    </arc-pt>
+    <transition x="1025" y="750" inv_change="0" distr="2" priority="0" n="34" affects_inv="0" name="Отремонтировать" >
+        <distr_options m="20" sigma="0" />
     </transition>
-    <arc-tp place="43" x="1175" y="650" transition="35" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="1" x="975" y="750" transition="34" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <transition x="1100" y="575" distr="3" priority="0" n="36" name="Вернуться">
-        <distr_options m="10"/>
+    <arc-pt place="38" x="1075" y="750" transition="34" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
+    </arc-pt>
+    <transition x="1225" y="650" inv_change="0" distr="3" priority="0" n="35" affects_inv="0" name="Генератор события" >
+        <distr_options m="1000" />
     </transition>
-    <arc-tp place="0" x="1025" y="625" transition="36" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="43" x="1175" y="650" transition="35" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="44" x="1125" y="575" transition="36" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <transition x="1100" y="500" distr="0" priority="0" n="37" name="Отпуск">
-        <distr_options value="100"/>
+    <transition x="1100" y="575" inv_change="0" distr="3" priority="0" n="36" affects_inv="0" name="Вернуться" >
+        <distr_options m="10" />
     </transition>
-    <arc-tp place="44" x="1175" y="500" transition="37" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="0" x="1025" y="625" transition="36" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
-    <arc-pt place="45" x="1100" y="450" transition="37" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-pt place="44" x="1125" y="575" transition="36" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-pt>
-    <arc-pt place="0" x="1000" y="600" transition="37" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
-    </arc-pt>
-    <transition x="1250" y="450" distr="3" priority="0" n="38" name="Генератор события">
-        <distr_options m="1200"/>
+    <transition x="1100" y="500" inv_change="0" distr="0" priority="0" n="37" affects_inv="0" name="Отпуск" >
+        <distr_options value="100" />
     </transition>
-    <arc-tp place="45" x="1225" y="450" transition="38" distr="0" block="0" block_type="0">
-        <distr_options value="1"/>
+    <arc-tp place="44" x="1175" y="500" transition="37" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
+    </arc-tp>
+    <arc-tp place="46" x="1225" y="525" transition="37" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
+    </arc-tp>
+    <arc-pt place="45" x="1100" y="450" transition="37" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
+    </arc-pt>
+    <arc-pt place="0" x="1000" y="600" transition="37" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
+    </arc-pt>
+    <transition x="1250" y="450" inv_change="0" distr="3" priority="0" n="38" affects_inv="0" name="Генератор события" >
+        <distr_options m="1200" />
+    </transition>
+    <arc-tp place="45" x="1225" y="450" transition="38" distr="0" block="0" block_type="0" >
+        <distr_options value="1" />
     </arc-tp>
 </objects>
-<format_version major="1" minor="2"/>
-<global_options>
-    <transitions nonHolding="0"/>
-</global_options>
