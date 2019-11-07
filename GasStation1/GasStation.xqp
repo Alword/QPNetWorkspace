@@ -38,7 +38,7 @@
     <place x="1650" y="1200" n="35" value="0" name="p6" />
     <place x="1650" y="1325" n="36" value="0" name="p8" />
     <place x="1800" y="1200" n="37" value="0" name="p9" />
-    <place x="1125" y="725" n="38" value="0" name="Бензовоз на ремонте" />
+    <place x="1125" y="725" n="38" value="0" name="Бензовоз на техосмотре" />
     <place x="125" y="1150" n="39" value="0" name="Клиентов упущено" />
     <place x="75" y="375" n="40" value="0" name="Клиентов упущено" />
     <place x="250" y="1250" n="41" value="0" name="Сигнал" />
@@ -48,7 +48,7 @@
     <place x="1150" y="450" n="45" value="0" name="Флаг" />
     <place x="1275" y="575" n="46" value="0" name="Счетчик отпусков" />
     <place x="425" y="1325" n="47" value="0" name="Счетчик поломок" />
-    <place x="1150" y="800" n="48" value="0" name="Счетчик поломок" />
+    <place x="1150" y="800" n="48" value="0" name="Счетчик осмотров" />
     <transition x="325" y="1250" inv_change="0" distr="0" priority="2" n="0" affects_inv="0" name="Поломка пистолета" >
         <distr_options value="1" />
     </transition>
@@ -448,7 +448,7 @@
     <arc-pt place="42" x="400" y="1250" transition="32" distr="0" block="0" block_type="0" >
         <distr_options value="1" />
     </arc-pt>
-    <transition x="1025" y="675" inv_change="0" distr="0" priority="0" n="33" affects_inv="0" name="Сломать бензовоз" >
+    <transition x="1025" y="675" inv_change="0" distr="0" priority="0" n="33" affects_inv="0" name="Осмотреть бензовоз" >
         <distr_options value="0" />
     </transition>
     <arc-tp place="38" x="1075" y="700" transition="33" distr="0" block="0" block_type="0" >
